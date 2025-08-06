@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Donation Platform</title>
+  <style>
+    body { font-family: Arial; background: #f7f7f7; padding: 30px; }
+    h1 { text-align: center; color: #2a9d8f; }
+    form { max-width: 500px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; }
+    input, textarea, button { width: 100%; margin-bottom: 10px; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { background: #2a9d8f; color: white; border: none; cursor: pointer; }
+    button:hover { background: #21867a; }
+  </style>
+</head>
+<body>
+
+  <h1>Share Surplus Food 🍲</h1>
+
+  <form>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" placeholder="e.g. Krishna" required>
+
+    <label for="location">Pickup Location</label>
+    <input type="text" id="location" placeholder="e.g. Gajuwaka, AP" required>
+
+    <label for="food">Food Description</label>
+    <textarea id="food" rows="4" placeholder="e.g. 2 boxes of cooked rice" required></textarea>
+
+    <label for="contact">Contact Info</label>
+    <input type="text" id="contact" placeholder="Phone or Email" required>
+
+    <button type="submit">Donate Now</button>
+  </form>
+
+</body>
+</html>
+
